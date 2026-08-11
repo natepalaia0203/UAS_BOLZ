@@ -2,8 +2,13 @@
 
 | Project | Description |
 |---|---|
-| [CrowDrone](./CrowDrone/) | Aerial platform |
+| [CrowDrone](./CrowDrone/) | Aerial platform — [Marvelmind/Pixhawk integration](./CrowDrone/DRONE_INTEGRATION.md) |
 | [GroundRobots](./GroundRobots/turtlebot-navigation/) | TurtleBot2 indoor autonomous navigation |
+
+## Shared
+
+- **[Marvelmind Guide](./MARVELMIND.md)** — indoor positioning, used by both platforms. **Read before switching the hedgehog between projects.**
+- [Pi Hotspot & SSH Guide](./Pi_Hotspot_SSH_Guide.md)
 
 ## Devices
 
@@ -11,8 +16,3 @@
 |---|---|---|---|
 | Drone | `bolzpi` | `pi` | `ssh pi@bolzpi.local` |
 | Ground robot | `bolzpi2` | `uas` | `ssh uas@bolzpi2.local` |
-
-Both run headless over an iPhone hotspot (`172.20.10.x`). If `.local` mDNS fails,
-find the IP with `arp -a | grep 172.20.10` and SSH to that instead.
-
-Shared setup: [Pi Hotspot & SSH Guide](./Pi_Hotspot_SSH_Guide.md)
