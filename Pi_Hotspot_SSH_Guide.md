@@ -45,7 +45,7 @@ ssh pi@bolzpi.local
 When prompted for a password, type:
 
 ```
-drone123
+*****
 ```
 
 > **Note:** The terminal will not show any characters as you type the password — this is normal. Just type it and press Enter.
