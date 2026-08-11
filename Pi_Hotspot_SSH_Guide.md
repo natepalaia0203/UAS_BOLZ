@@ -103,7 +103,7 @@ The project repo is public, so no GitHub login is needed — just pull the lates
 ### If the repo is already cloned on the Pi
 
 ```bash
-cd ~/UAS_PI5Drone_Autonomous
+cd ~/UAS_BOLZ
 git pull
 ```
 
@@ -112,8 +112,8 @@ This updates your local copy on the Pi with anything new pushed to GitHub, inclu
 ### If the repo is not cloned on the Pi yet
 
 ```bash
-git clone https://github.com/dchavan2192/UAS_PI5Drone_Autonomous.git
-cd UAS_PI5Drone_Autonomous
+git clone https://github.com/dchavan2192/UAS_BOLZ.git
+cd UAS_BOLZ
 ```
 
 > **Note:** Since the repo is public, no username, password, or token is required for `git pull` or `git clone`.
@@ -130,6 +130,6 @@ cd ~/drone_project
 source ~/mavenv/bin/activate
 
 # Get latest files from GitHub
-cd ~/UAS_PI5Drone_Autonomous
+cd ~/UAS_BOLZ
 git pull
 ```
