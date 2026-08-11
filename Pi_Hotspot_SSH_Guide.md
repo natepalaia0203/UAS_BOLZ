@@ -96,6 +96,30 @@ deactivate
 
 ---
 
+## Part 4 — Get the Latest Files from GitHub
+
+The project repo is public, so no GitHub login is needed — just pull the latest changes.
+
+### If the repo is already cloned on the Pi
+
+```bash
+cd ~/UAS_PI5Drone_Autonomous
+git pull
+```
+
+This updates your local copy on the Pi with anything new pushed to GitHub, including this guide.
+
+### If the repo is not cloned on the Pi yet
+
+```bash
+git clone https://github.com/dchavan2192/UAS_PI5Drone_Autonomous.git
+cd UAS_PI5Drone_Autonomous
+```
+
+> **Note:** Since the repo is public, no username, password, or token is required for `git pull` or `git clone`.
+
+---
+
 ## Quick Reference
 
 ```bash
@@ -104,4 +128,8 @@ ssh pi@bolzpi.local
 
 cd ~/drone_project
 source ~/mavenv/bin/activate
+
+# Get latest files from GitHub
+cd ~/UAS_PI5Drone_Autonomous
+git pull
 ```
