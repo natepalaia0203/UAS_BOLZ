@@ -124,7 +124,7 @@ cd UAS_PI5Drone_Autonomous
 
 ```bash
 ssh pi@bolzpi.local
-# password: drone123
+# password: 
 
 cd ~/drone_project
 source ~/mavenv/bin/activate
